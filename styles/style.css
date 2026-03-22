@@ -21,6 +21,20 @@
 .text-color-rgb{
    background-color: rgba(255, 210, 14, 0.1);
 }
+.brand{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+  
+}
 
 /* header style */
 
@@ -30,8 +44,8 @@
    
     justify-content: space-between;
     align-items: center;
-    margin-left: 228px;
-    margin-top: 50px;
+    /* margin-left: 228px;
+    margin-top: 50px; */
 }
 .list-style{
     list-style: none;
@@ -48,4 +62,28 @@
 }
 .nav-bar,.banner{
     max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 864px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-heading{
+    font-weight: 800;
+    font-size: 5rem;
+    margin-top: 205px;
+}
+.banner-description{
+    font-size: 1rem;
+    line-height: 26px;
+}
+.banner img{
+    max-width: 1140px;
+    margin-top: 50px;
+}
+.banner-image{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
