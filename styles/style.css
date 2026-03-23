@@ -25,6 +25,9 @@
     font-weight: 700;
     font-size: 2.8rem;
 }
+.bgc-color{
+    color: #FF900E;
+}
 .btn{
     background-color: #FF900E;
     color: #FFFFFF;
@@ -86,4 +89,87 @@
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    max-width:1318px;
+    
+}
+.grid-container .images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    gap: 24px;
+    margin-top: 85px;
+    margin-left: 50px;
+   
+    
+   
+}
+
+.Features-heading{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.features-content{
+    font-size: 1rem;
+   line-height: 1.2rem;
+}
+.grid-feature{
+    max-width: 537PX;
+}
+
+.sec-container{
+    display: flex;
+    max-width: 1140px;
+    gap: 54px;
+    margin: 140px;
+}
+.feature-heading{
+    font-size: 1.2rem;
+    color: #131313;
+}
+.feature-details{
+    font-size: 1rem;
+    line-height: 1.35rem;
+}
+.feature-image{
+    max-width: 800px;
+    position: relative;
+}
+.feature-image img{
+    max-width: 100%;
+}
+.experience-box{
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    background-color: #FF900E;
+    padding: 30px 20px;
+    border-radius: 8px;
+    border: none;
+    max-width: 258px;
+}
+.exp-heading{
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+.exp-para{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3ren;
+    line-height: 20px;
+}
+
+/* responsive  */
+@media screen and (max-width:576px) {
+
+   .nav-bar,.nav-links{
+    flex-direction: column;
+   }
+    
 }
